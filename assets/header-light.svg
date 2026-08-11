@@ -66,9 +66,8 @@
   </circle>
   <circle cx="975" cy="140" r="7" fill="#12a394"/>
 
-  <rect x="80" y="62" width="58" height="4" rx="2" fill="url(#rule)"/>
+  <rect x="80" y="96" width="58" height="4" rx="2" fill="url(#rule)"/>
 
-  <text x="80" y="126" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#1f2328" letter-spacing="-0.5">Иракли Чикобава</text>
-  <text x="80" y="171" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="500" fill="#48505e">AI/NLP-инженер. LLM-агенты, RAG, трансформеры</text>
-  <text x="80" y="207" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#6b7280">РЭУ им. Плеханова, выпуск 2027. Москва</text>
+  <text x="80" y="160" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#1f2328" letter-spacing="-0.5">Иракли Чикобава</text>
+  <text x="80" y="199" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="500" fill="#48505e">AI/NLP-инженер</text>
 </svg>
