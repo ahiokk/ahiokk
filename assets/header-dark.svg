@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Иракли Чикобава, ML-инженер, NLP и LLM-агенты">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#101736"/>
+      <stop offset="1" stop-color="#131a3a"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7c5cff" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#0d6a61" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#0d6a61" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c5cff"/>
+      <stop offset="1" stop-color="#39d4c4"/>
+    </linearGradient>
+
+    <path id="e1" d="M 975 140 L 858 68"/>
+    <path id="e2" d="M 975 140 L 1104 78"/>
+    <path id="e3" d="M 975 140 L 856 214"/>
+    <path id="e4" d="M 975 140 L 1100 210"/>
+  </defs>
+
+  <rect width="1200" height="280" rx="14" fill="url(#bg)"/>
+  <ellipse cx="1000" cy="40" rx="380" ry="230" fill="url(#glowA)"/>
+  <ellipse cx="140" cy="270" rx="340" ry="200" fill="url(#glowB)"/>
+
+  <g stroke="#7c5cff" stroke-opacity="0.30" stroke-width="1.4" fill="none">
+    <use href="#e1"/><use href="#e2"/><use href="#e3"/><use href="#e4"/>
+  </g>
+
+  <g fill="#39d4c4">
+    <circle r="3.2" opacity="0.95">
+      <animateMotion dur="3.2s" repeatCount="indefinite"><mpath href="#e1"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.2" opacity="0.95">
+      <animateMotion dur="3.9s" begin="0.7s" repeatCount="indefinite"><mpath href="#e2"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" dur="3.9s" begin="0.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.2" opacity="0.95">
+      <animateMotion dur="3.5s" begin="1.4s" repeatCount="indefinite"><mpath href="#e3"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" dur="3.5s" begin="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.2" opacity="0.95">
+      <animateMotion dur="4.3s" begin="2.1s" repeatCount="indefinite"><mpath href="#e4"/></animateMotion>
+      <animate attributeName="opacity" values="0;1;1;0" dur="4.3s" begin="2.1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g fill="#131a3a" stroke="#7c5cff" stroke-width="1.6" stroke-opacity="0.75">
+    <circle cx="858" cy="68" r="11"/>
+    <circle cx="1104" cy="78" r="11"/>
+    <circle cx="856" cy="214" r="11"/>
+    <circle cx="1100" cy="210" r="11"/>
+  </g>
+
+  <circle cx="975" cy="140" r="30" fill="#131a3a" stroke="#7c5cff" stroke-width="2"/>
+  <circle cx="975" cy="140" r="30" fill="none" stroke="#7c5cff" stroke-width="2">
+    <animate attributeName="r" values="30;44;30" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.55;0;0.55" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="975" cy="140" r="7" fill="#39d4c4"/>
+
+  <rect x="80" y="62" width="58" height="4" rx="2" fill="url(#rule)"/>
+
+  <text x="80" y="126" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="#e9ecf1" letter-spacing="-0.5">Иракли Чикобава</text>
+  <text x="80" y="171" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="500" fill="#b9c0cd">ML-инженер. NLP, LLM-агенты и RAG</text>
+  <text x="80" y="207" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#8b93a3">РЭУ им. Плеханова, выпуск 2027. Москва</text>
+</svg>
